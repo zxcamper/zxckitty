@@ -1,0 +1,189 @@
+body {
+  margin: 0px;
+  background: linear-gradient(135deg, #ff49f6,#96009b);
+  background-attachment: fixed;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid white;
+}
+
+.hk {
+  width: 100px;
+  position: absolute; left: 80px; 
+  user-select: none;
+}
+
+.maintext {
+  font-size: 50px;
+  position: absolute; top: 15px; left: 220px;
+  border: 0px;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+  font-family: Asimovian;
+  color: rgb(255, 255, 255);
+}
+
+.maintext:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  position: absolute; right: 140px; top: 25px;
+}
+
+.btv {
+  background: transparent;
+  border: 0px;
+  font-size: 30px;
+  color: white;
+  margin-left: 50px;
+  transition: 0.3s;
+  user-select: none;
+}
+
+.btv:hover {
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+}
+
+.text1 {
+  font-size: 5vh;
+  color: white;
+  position: absolute; left: 600px; top: 300px;
+}
+
+.oblako {
+  width: 100vh;
+  position: absolute; left: 450px;
+}
+
+.timetable {
+  width: 140vh;
+  position: absolute; left: 300px; top: 150px;
+  border-radius: 50px;
+  border: 10px solid;
+}
+
+.bant {
+  width: 200px;
+  position: absolute; left: 1500px; bottom: 640px;
+}
+
+.hkf {
+  user-select: none;
+  width: 400px;
+  position: absolute; right: 20px;
+}
+
+.kach {
+  width: 500px;
+}
+
+@media (max-width:768px) {
+  header {
+    height: 200px;
+  }
+}
+
+@media (max-width:768px) {
+  .navbar {
+  position: absolute; right: 140px; top: 25px;
+}
+}
+
+@media (max-width:768px) {
+  .kach {
+  width: 200px;
+}
+}
+
+@media (max-width:768px) {
+  .text1 {
+  font-size: 20px;
+  color: white;
+  position: absolute; left: 50px; top: 550px;
+}
+}
+
+@media (max-width:768px) {
+  .oblako {
+  width: 50vh;
+  position: absolute; left: 1px; top: 450px;
+}
+}
+
+@media (max-width:768px) {
+  .navbar {
+  position: relative; left: 15px; top: 90px;
+}
+}
+
+@media (max-width:768px) {
+  .btv {
+  background: transparent;
+  border: 0px;
+  font-size: 30px;
+  color: white;
+  margin-left: 50px;
+  transition: 0.3s;
+  user-select: none;
+  margin-top: 10px;
+}
+}
+
+@media (max-width:768px) {
+  .hk {
+  width: 100px;
+  position: absolute; left: 0px; 
+  user-select: none;
+}
+}
+
+@media (max-width:768px) {
+  .maintext {
+  font-size: 50px;
+  position: absolute; top: 15px; left: 150px;
+  border: 0px;
+  background: transparent;
+  cursor: pointer;
+  user-select: none;
+  font-family: Asimovian;
+  color: rgb(255, 255, 255);
+}
+}
+
+@media (max-width:768px) {
+  .player {
+    width: 90%;
+  }
+}
+
+@media (max-width:768px) {
+  .hkf {
+  user-select: none;
+  width: 400px;
+  position: absolute; right: 20px; top: 1300px;
+}
+}
+
+@media (max-width:768px) {
+  .timetable {
+  transform: rotate(90deg);
+  width: 80vh;
+  position: absolute; left: -140px; top: 400px;
+  border-radius: 50px;
+  border: 10px solid;
+}
+}
+
+@media (max-width:768px) {
+  .bant {
+  width: 0px;
+  position: absolute; left: 1500px; bottom: 640px;
+}
+}
